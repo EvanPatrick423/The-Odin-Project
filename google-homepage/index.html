@@ -7,7 +7,7 @@
 
   <style>
     #viewport {
-      height: 100%;
+      height: auto;
       width: 100%;
       color: white;
       display: block;
@@ -55,19 +55,27 @@
 
     #nav-bar {
       height: 38px;
+      width: 100%;
+      bottom: 570px;
+
       display:flex;
       justify-content: space-between;
       background-color: LightGray;
+      position: fixed;
     }
 
     #left-nav {
       font-size: 13px;
       color: #222;
       font-family: arial,sans-serif;
+      padding-left: 15px;
+      padding-right: 7px;
     }
 
     #right-nav {
       align-items: flex-end;
+      padding-left: 15px;
+      padding-right: 7px;
     }
 
     div {
@@ -87,7 +95,7 @@
       justify-content: flex-start;
       height: 35px;
       background-color: LightGray;
-      top: 400px;
+      margin-top: 1000px;
       font-size:20px;
       align-items: center;
 
