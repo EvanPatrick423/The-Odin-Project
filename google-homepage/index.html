@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <html style="
+  height: 100%;
+  width: 100%;
+  ">
+
+  <style>
+    #viewport {
+      height: 100%;
+      width: 100%;
+      color: white;
+      display: block;
+    }
+
+    #google-logo {
+      postion: absolute;
+      height: auto;
+      width: flex;
+      background-color: white;
+      margin-top: 100px;
+      display: block;
+      text-align: center;
+
+
+    }
+
+    #search-bar {
+      height: auto;
+      width: flex;
+      background-color: white;
+      text-align: center;
+
+    }
+
+    .buttons {
+      position: absolute;
+      text-align: center;
+      margin-top: 25px;
+    }
+
+    #google-search {
+      height:35px;
+      width:125px;
+      background-color: grey;
+      left:370px;
+    }
+
+    #feeling-lucky {
+      height: 35px;
+      width: 125px;
+      background-color: grey;
+      left: 550px;
+    }
+
+    #nav-bar {
+      height: 38px;
+      display:flex;
+      justify-content: space-between;
+      background-color: LightGray;
+    }
+
+    #left-nav {
+      font-size: 13px;
+      color: #222;
+      font-family: arial,sans-serif;
+    }
+
+    #right-nav {
+      align-items: flex-end;
+    }
+
+    div {
+      display: block;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    #footer {
+      display: flex;
+      justify-content: flex-start;
+      height: 35px;
+      background-color: LightGray;
+      top: 400px;
+      font-size:20px;
+      align-items: center;
+
+
+    }
+
+    .footer {
+      width: auto;
+      padding-left:20px;
+
+    }
+  </style>
+
+
+
+
+  <head>
+    <title>Google Homepage Lookalike</title>
+  </head>
+
+
+
+  <body>
+    <div id="viewport">
+      <header>
+
+        <div id="nav-bar">
+          <div id="left-nav">
+            <a href="">About</a>
+            <a href="">Store</a>
+          </div>
+
+          <div id="right-nav">
+            <a href="">Gmail</a>
+            <a href="">Imadges</a>
+            <a href=""><button id="3x3-squares-button">3x3 squares</button></a>
+            <a href=""><button id="sign-in-button">Sign in</button></a>
+          </div>
+        </div>
+      </header>
+
+
+      <div id="google-logo"><img alt="Google" height="92" width="272" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"></div>
+      <div id="search-bar"><input type="text" placeholder="Search on Google" width="400px"></input></div>
+      <div id="buttons"><button id="google-search" class="buttons" title="Google Search">Google Search</button><button id="feeling-lucky" class="buttons" title="Feeling Lucky">I'm Feeling Lucky</button></div>
+
+      <div id="footer">
+        <a href="#" class="footer">Advertising</a>
+        <a href="#" class="footer">Buisness</a>
+        <a href="#" class="footer">How Search works</a>
+
+      </div>
+
+
+
+    </div>
+
+  </body>
+</html>
